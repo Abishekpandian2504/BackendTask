@@ -1,0 +1,29 @@
+// const winston =require("winston");
+// require('winston-mongodb');
+// require('express-async-errors');
+// module.exports = function() {
+//     winston.handleExceptions( new winston.transports.File({ filename: 'uncaughtExceptions.log'}));
+
+// process.on('unhandledRejection', (ex) => {
+//     throw ex;
+// });
+
+// winston.add(winston.transports.File, { filename: 'logfile.log'});
+// //winston.add(winston.transports.MongoDB, { db: 'mongodb://localhost/vidly' });
+// // if you want to store only error messages in the log
+//  winston.add(winston.transports.MongoDB, { db: 'mongodb://localhost/vidly', level: 'error' });
+// }
+
+
+//2nd
+const winston =require("winston");
+require('express-async-errors');
+module.exports = function() {
+    winston.handleExceptions( new winston.transports.File({ filename: 'uncaughtExceptions.log'}));
+
+process.on('unhandledRejection', (ex) => {
+    throw ex;
+});
+
+
+}

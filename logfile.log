@@ -1,0 +1,4 @@
+{"message":"Something failed during startup.","stack":"Error: Something failed during startup.\n    at Object.<anonymous> (C:\\Users\\Abishek\\vidly-server\\index.js:132:7)\n    at Module._compile (internal/modules/cjs/loader.js:1063:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)\n    at Module.load (internal/modules/cjs/loader.js:928:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:769:14)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)\n    at internal/main/run_main_module.js:17:47","level":"error","timestamp":"2021-11-29T11:57:05.025Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2021-12-02T10:59:18.824Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2021-12-02T11:35:50.667Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2021-12-02T11:36:27.229Z"}
